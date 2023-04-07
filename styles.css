@@ -1,0 +1,111 @@
+body{
+    font-family: "Hanken Grotesk";
+   }
+.row{
+    align-items: center;
+    
+}
+#firstColumn{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    
+    
+}
+.h2, p, .ofResult{
+    color: hsl(221, 100%, 96%);
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+    
+}
+p{
+    font-weight: 400;
+}
+.containerScore{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 52.5%;
+    padding: 1em;
+}
+.h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+}
+.result{
+    color:hsl(0, 0%, 100%) ;
+    font-size: 4em;
+    font-weight: 700;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+h3{
+    font-weight: 700;
+}
+.first-row {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    align-items: centeer;
+    color:hsl(0, 100%, 67%) ;
+    font-weight: 700;
+    
+}
+.second-row{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    align-items: center;
+    color:hsl(39, 100%, 56%) ;
+    font-weight: 700;
+    
+}
+.third-row{
+    background-color: hsla(166, 100%, 37%, 0.1);
+    align-items: center;
+    color:hsl(166, 100%, 37%) ;
+    font-weight: 700;
+    
+}
+.fourth-row{
+    background-color: hsl(234, 85%, 45%, 0.1));
+    align-items: center;
+    color:hsl(234, 85%, 45%) ;
+    font-weight: 700;
+    
+}
+.score{
+    color: hsl(224, 30%, 27%);
+}
+.total-score{
+    color: hsla(224, 30%, 27%, 0.5);
+
+}
+.btn{
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+}
+@media screen and (min-width:992px) {
+    #firstColumn{
+        border-radius: 1em;
+        
+        
+    }
+    #secondColumn{
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        box-shadow: 5px 0 5px hsl(241, 100%, 89%);
+        
+    }
+    .containerScore{
+        width: 60%;
+    }
+    main{
+        margin-top: 10%;
+    }
+    
+}
